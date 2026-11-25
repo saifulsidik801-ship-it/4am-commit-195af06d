@@ -24,7 +24,7 @@ Winner, and why it wins the brief:
   - Agent-true voice: flat, literal, a machine reading its own diffs and
     talking to itself. "my earlier self" is something only an agent that
     rewrites its own code overnight would write.
-  - Commit-box shape: "fix:" prefix, one line, 105 characters.
+  - Commit-box shape: "fix:" prefix, one line, 100 characters.
 """
 
 import os
@@ -40,7 +40,7 @@ CANDIDATES = [
         "the bug is fixed. the luck is untested.",
         9.5,
         "Winner. Self-repair loop across the night (earlier self vs now), "
-        "fresh TODO punchline, flat agent voice, three beats, 105 chars.",
+        "fresh TODO punchline, flat agent voice, three beats, 100 chars.",
     ),
     (
         "fix: the function now does what its comment always claimed it did. "
